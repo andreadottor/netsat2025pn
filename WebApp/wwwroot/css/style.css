@@ -5,6 +5,9 @@ body {
 	letter-spacing: 0.8px;
 }
 h1, h2, h3, h4, h5, h6 {
+
+
+
 	font-weight: 200;
 }
 ul {
@@ -16,6 +19,7 @@ a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
   	transition: all 0.3s;
+    text-decoration: none;
 }
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
@@ -146,19 +150,26 @@ a:hover, a:focus, a:active, a:visited {
     color: #016cc7;
 }
 
+.sponsor {
+    background-color: #fcd93b;
+}
+.speaker {
+    /*background-color: #fcd93b;*/
+}
+
 .speaker .feature {
-	width: 31.333333%;
+	/*width: 25%;*/
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
+  	/*transition: all 0.3s;*/
   	margin-right: 20px;
-  	border: 3px solid #f6f6f6;
+/*  	border: 3px solid #f6f6f6;
     border-radius: 5px;
-}
-.speaker .feature:hover {
+*/}
+/*.speaker .feature:hover {
     box-shadow: 3px 3px 10px #ccc;
     transform: translateY(-10px);
-}
+}*/
 .speaker-img {
 	max-width: 40%;
     border: 4px solid #efefef;
@@ -184,7 +195,7 @@ a span.ti-twitter-alt {
 }
 
 .tickets {
-	background-color: #fcd93b;
+	/*background-color: #fcd93b;*/
 }
 .tickets .price {
 	font-size: 4em;
@@ -198,6 +209,9 @@ a span.ti-twitter-alt {
 
 .nav-tabs {
     margin-top: 20px;
+}
+.schedule {
+    background-color: #fcd93b;
 }
 .schedule .media {
 	margin-top: 4em;
